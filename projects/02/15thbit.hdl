@@ -1,0 +1,8 @@
+CHIP 15thbit{
+
+    IN in[16];
+    OUT out;
+
+    PARTS:
+    Or (a=in[15],b=false,out=out);
+}
